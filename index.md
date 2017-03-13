@@ -163,7 +163,7 @@ pcdm_member = pcdm:hasMember :: xsd:string
 ### Beyond 1.x: Writing to the Repo
 
 * Complete management of digital objects
-* Hydra-based
+* Hydra-based (?)
 * Access control management
 * Batch-loader integration
 
