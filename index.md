@@ -34,7 +34,7 @@ output: index.html
 * Lived ~80.5 million years ago in North America
 * Largest ever recorded species of turtle by size
 * Second largest by weight
-* [More info on Wikipedia](https://en.wikipedia.org/wiki/Archelon)
+* <https://en.wikipedia.org/wiki/Archelon>
 
 --
 
