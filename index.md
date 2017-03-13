@@ -77,7 +77,7 @@ output: index.html
 * Index the `pcdm:hasMember` field:
 
   ```
-pcdm_member = pcdm:hasMember :: xsd:string
+pcdm_members = pcdm:hasMember :: xsd:string
   ```
 * Use subquery to get title at query time:
 

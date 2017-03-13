@@ -463,7 +463,7 @@ img {
     <section class="slide-content"><h3 id="solr-6-subqueries">Solr 6: Subqueries</h3>
 <ul>
 <li><p>Index the <code>pcdm:hasMember</code> field:</p>
-<pre><code>pcdm_member = pcdm:hasMember :: xsd:string</code></pre>
+<pre><code>pcdm_members = pcdm:hasMember :: xsd:string</code></pre>
 </li>
 <li><p>Use subquery to get title at query time:</p>
 <pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">str</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"fl"</span>&gt;</span>*,pcdm_members_info:[subquery]<span class="hljs-tag">&lt;/<span class="hljs-name">str</span>&gt;</span>
