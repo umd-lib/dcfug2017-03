@@ -145,6 +145,12 @@ pcdm_members = pcdm:hasMember :: xsd:string
 
 --
 
+### Putting it All Together
+
+![](IIIFEcosystem.png)
+
+--
+
 ### What’s Next?
 
 ![](SingleLeatherback.jpg)  
