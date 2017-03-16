@@ -2,7 +2,7 @@ title: Introducing Archelon
 author:
   name: Peter Eichman, Josh Westgard
   email: peichman@umd.edu, westgard@umd.edu
-  url: https://github.com/umd-lib/archelon
+  url: https://github.com/umd-lib/dcfug2017-03
 theme: theme
 output: index.html
 
