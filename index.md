@@ -122,6 +122,12 @@ pcdm_members = pcdm:hasMember :: xsd:string
 
 * Using version 2.1.0
 * Contibuted code back to the Loris community
+* <https://github.com/loris-imageserver/loris>
+
+--
+
+### Loris to Fedora Connection
+
 * Using the templated HTTP resolver
 * Maps CURIE-style IIIF IDs:
   ```
@@ -131,12 +137,13 @@ pcdm_members = pcdm:hasMember :: xsd:string
   ```
   https://fcrepo.lib.umd.edu/fcrepo/rest/pcdm/d3/05/a8/4f/d305a84f-6287-439c-b20d-b3d19e05aa44
   ```
+* Images are cached by Loris after first retrieval from Fedora
 
 --
 
 ### Mirador IIIF Image Viewer
 
-* Static wrapper around a build of Mirador
+* Static wrapper around a forked build of Mirador
 * Embeddable via `<iframe>`
 * Some custom code contributed back to community
 * Some changes are unique to UMD
@@ -163,6 +170,8 @@ pcdm_members = pcdm:hasMember :: xsd:string
 * OCR text search
 * OCR hit highlighting
 * Article segmentation
+* Implemented with Web Annotations
+* <https://www.w3.org/TR/annotation-vocab/>
 
 --
 
@@ -175,7 +184,17 @@ pcdm_members = pcdm:hasMember :: xsd:string
 
 --
 
-### GitHub
+### Repository Goals
+
+* Continue loading new content first
+* Migrate Fedora 2 content to Fedora 4
+* Move off of direct filesystem storage for large objects
+* General-purpose cache to replace Loris' custom cache
+* Retain our repository-centric model
+
+--
+
+### Archelon on GitHub
 
 * <https://github.com/umd-lib/archelon>
 
@@ -183,7 +202,9 @@ pcdm_members = pcdm:hasMember :: xsd:string
 
 ### Image Links
 
-* [Leatherback Sea Turtle Hatchlings](https://commons.wikimedia.org/wiki/File:Leatherbacks_crawling_to_the_sea.jpg)
-* [Archelon Restoration](https://commons.wikimedia.org/wiki/File:Archelon1DB.jpg)
+* Leatherback Sea Turtle Hatchlings
+  <br><small><https://commons.wikimedia.org/wiki/File:Leatherbacks_crawling_to_the_sea.jpg></small>
+* Archelon Restoration
+  <br><small><https://commons.wikimedia.org/wiki/File:Archelon1DB.jpg></small>
 
 [CC-BY-2.0]: http://creativecommons.org/licenses/by/2.0

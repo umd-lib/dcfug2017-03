@@ -510,18 +510,26 @@ img {
 <ul>
 <li>Using version 2.1.0</li>
 <li>Contibuted code back to the Loris community</li>
+<li><a href="https://github.com/loris-imageserver/loris">https://github.com/loris-imageserver/loris</a></li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-15">
+    <section class="slide-content"><h3 id="loris-to-fedora-connection">Loris to Fedora Connection</h3>
+<ul>
 <li>Using the templated HTTP resolver</li>
 <li>Maps CURIE-style IIIF IDs:<pre><code>fcrepo:pcdm%2Fd3%2F05%2Fa8%2F4f%2Fd305a84f-6287-439c-b20d-b3d19e05aa44</code></pre>
 </li>
 <li>To Fedora 4 URIs:<pre><code>https://fcrepo.lib.umd.edu/fcrepo/rest/pcdm/d3/05/a8/4f/d305a84f-6287-439c-b20d-b3d19e05aa44</code></pre>
 </li>
+<li>Images are cached by Loris after first retrieval from Fedora</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-15">
+  <div class="slide hidden" id="slide-16">
     <section class="slide-content"><h3 id="mirador-iiif-image-viewer">Mirador IIIF Image Viewer</h3>
 <ul>
-<li>Static wrapper around a build of Mirador</li>
+<li>Static wrapper around a forked build of Mirador</li>
 <li>Embeddable via <code>&lt;iframe&gt;</code></li>
 <li>Some custom code contributed back to community</li>
 <li>Some changes are unique to UMD</li>
@@ -530,26 +538,28 @@ img {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-16">
+  <div class="slide hidden" id="slide-17">
     <section class="slide-content"><h3 id="putting-it-all-together">Putting it All Together</h3>
 <p><img src="IIIFEcosystem.png" alt=""></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-17">
+  <div class="slide hidden" id="slide-18">
     <section class="slide-content"><h3 id="what-s-next-">What’s Next?</h3>
 <p><img src="SingleLeatherback.jpg" alt=""><br><small class="photo-credit">U.S. Fish and Wildlife Service Southeast Region / <a href="http://creativecommons.org/licenses/by/2.0">CC-BY-2.0</a></small></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-18">
+  <div class="slide hidden" id="slide-19">
     <section class="slide-content"><h3 id="planned-features-for-1-1">Planned Features for 1.1</h3>
 <ul>
 <li>OCR text search</li>
 <li>OCR hit highlighting</li>
 <li>Article segmentation</li>
+<li>Implemented with Web Annotations</li>
+<li><a href="https://www.w3.org/TR/annotation-vocab/">https://www.w3.org/TR/annotation-vocab/</a></li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-19">
+  <div class="slide hidden" id="slide-20">
     <section class="slide-content"><h3 id="beyond-1-x-writing-to-the-repo">Beyond 1.x: Writing to the Repo</h3>
 <ul>
 <li>Complete management of digital objects</li>
@@ -559,22 +569,35 @@ img {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><h3 id="github">GitHub</h3>
+  <div class="slide hidden" id="slide-21">
+    <section class="slide-content"><h3 id="repository-goals">Repository Goals</h3>
+<ul>
+<li>Continue loading new content first</li>
+<li>Migrate Fedora 2 content to Fedora 4</li>
+<li>Move off of direct filesystem storage for large objects</li>
+<li>General-purpose cache to replace Loris&#39; custom cache</li>
+<li>Retain our repository-centric model</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-22">
+    <section class="slide-content"><h3 id="archelon-on-github">Archelon on GitHub</h3>
 <ul>
 <li><a href="https://github.com/umd-lib/archelon">https://github.com/umd-lib/archelon</a></li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-21">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><h3 id="image-links">Image Links</h3>
 <ul>
-<li><a href="https://commons.wikimedia.org/wiki/File:Leatherbacks_crawling_to_the_sea.jpg">Leatherback Sea Turtle Hatchlings</a></li>
-<li><a href="https://commons.wikimedia.org/wiki/File:Archelon1DB.jpg">Archelon Restoration</a></li>
+<li>Leatherback Sea Turtle Hatchlings
+<br><small><a href="https://commons.wikimedia.org/wiki/File:Leatherbacks_crawling_to_the_sea.jpg">https://commons.wikimedia.org/wiki/File:Leatherbacks_crawling_to_the_sea.jpg</a></small></li>
+<li>Archelon Restoration
+<br><small><a href="https://commons.wikimedia.org/wiki/File:Archelon1DB.jpg">https://commons.wikimedia.org/wiki/File:Archelon1DB.jpg</a></small></li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden author-slide" id="slide-22">
+  <div class="slide hidden author-slide" id="slide-24">
     <section class="slide-content"><div class="author">
   <h1 class="name">Peter Eichman, Josh Westgard</h1>
     <h3 class="url">
