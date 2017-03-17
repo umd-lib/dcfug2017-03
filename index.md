@@ -129,7 +129,7 @@ pcdm_members = pcdm:hasMember :: xsd:string
 ### Loris to Fedora Connection
 
 * Using the templated HTTP resolver
-* Maps CURIE-style IIIF IDs:
+* Maps prefixed CURIE-style IIIF IDs:
   ```
   fcrepo:pcdm%2Fd3%2F05%2Fa8%2F4f%2Fd305a84f-6287-439c-b20d-b3d19e05aa44
   ```
@@ -149,6 +149,14 @@ pcdm_members = pcdm:hasMember :: xsd:string
 * Some changes are unique to UMD
 * <https://github.com/umd-lib/mirador-static>
 * <https://github.com/umd-lib/mirador>
+
+--
+
+### Mirador Customizations Presentation
+
+* Code4Lib 2017 Poster Presentation
+* “Newspapers Re-Issued: Developing a custom IIIF newspaper viewer at the University of Maryland Libraries”
+* <http://drum.lib.umd.edu/handle/1903/19172>
 
 --
 
@@ -188,7 +196,7 @@ pcdm_members = pcdm:hasMember :: xsd:string
 
 * Continue loading new content first
 * Migrate Fedora 2 content to Fedora 4
-* Move off of direct filesystem storage for large objects
+* Move off of direct filesystem storage for binaries
 * General-purpose cache to replace Loris' custom cache
 * Retain our repository-centric model
 
