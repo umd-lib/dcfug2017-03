@@ -186,7 +186,7 @@ pcdm_members = pcdm:hasMember :: xsd:string
 ### Beyond 1.x: Writing to the Repo
 
 * Complete management of digital objects
-* Hydra-based (?)
+* Hydra-based (?) (or now: Agora-Repository-based?) 
 * Access control management
 * Batch-loader integration
 
